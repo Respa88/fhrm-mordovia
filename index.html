@@ -1,102 +1,54 @@
-<!doctype html>
-<html lang="ru">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Главная — Федерация хоккея Республики Мордовия</title>
-<meta name="description" content="Федерация хоккея Республики Мордовия — матчи, турниры, команды, новости и официальная информация.">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="topline"></div>
-<header>
-  <div class="container nav">
-    <a class="brand" href="index.html">
-      <img data-img="logo" alt="Логотип Федерации хоккея Республики Мордовия">
-      <div><strong>ФЕДЕРАЦИЯ ХОККЕЯ<br>РЕСПУБЛИКИ МОРДОВИЯ</strong><span>Официальный портал</span></div>
-    </a>
-    <nav class="navlinks">
-      <a href="matches.html">Матчи</a><a href="tournaments.html">Турниры</a><a href="tables.html">Таблицы</a>
-      <a href="teams.html">Команды</a><a href="news.html">Новости</a><a href="federation.html">Федерация</a>
-    </nav>
-    <a class="navcta" href="contacts.html">Контакты</a>
-  </div>
-</header>
-
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Главная — Федерация хоккея Республики Мордовия</title><meta name="description" content="Официальный портал Федерации хоккея Республики Мордовия">
+<link rel="stylesheet" href="style.css"></head><body><div class="topline"></div>
+<header><div class="container nav">
+<a class="brand" href="index.html"><img data-img="logo" alt=""><div><strong>ФЕДЕРАЦИЯ ХОККЕЯ<br>РЕСПУБЛИКИ МОРДОВИЯ</strong><span>Официальный портал</span></div></a>
+<nav class="navlinks"><a href="news.html">Новости</a><a href="matches.html">Календарь</a><a href="tables.html">Таблицы</a><a href="tournaments.html">Турниры</a><a href="teams.html">Клубы</a><a href="stats.html">Статистика</a><a href="federation.html">Федерация</a></nav>
+<button class="menu-btn" onclick="document.querySelector('.subnav').classList.toggle('open')">Меню</button><a class="navcta" href="contacts.html">Контакты</a></div>
+<div class="subnav"><div class="container"><a href="matches.html">Ближайшие матчи</a><a href="match-1.html">Матч дня</a><a href="events.html">События</a><a href="documents.html">Документы</a><a href="sdk.html">СДК</a><a href="partners.html">Партнёры</a><a href="media.html">Медиа</a><a href="contacts.html">Контакты</a></div></div></header>
 <main>
-<section class="hero"><div class="container hero-grid">
-  <div class="hero-copy reveal">
-    <div class="eyebrow"><span class="dot"></span> Официальный портал</div>
-    <h1>ХОККЕЙ<br>МОРДОВИИ</h1>
-    <p>Единая цифровая площадка Федерации хоккея Республики Мордовия — матчи, турниры, команды, новости и жизнь хоккейного сообщества.</p>
-    <div class="hero-actions"><a class="btn primary" href="matches.html">Матчи и результаты</a><a class="btn" href="teams.html">Команды</a></div>
-  </div>
-  <div class="hero-media reveal"><img data-img="hero" alt="Хоккей — временный концепт-визуал"><div class="hero-badge"><img data-img="logo" alt=""><div><b>Федерация хоккея РМ</b><small>Саранск · Республика Мордовия</small></div></div></div>
-</div>
-<div class="container mini-grid">
-  <div class="mini"><b>06</b><span>Команд</span></div><div class="mini"><b>24/25</b><span>Сезон</span></div><div class="mini"><b>LIVE</b><span>Матчи и события</span></div><div class="mini"><b>01</b><span>Официальный портал</span></div>
-</div></section>
+<section class="hero"><div class="container hero-grid"><div class="hero-copy reveal">
+<div class="eyebrow"><span class="dot"></span> Официальный портал</div><h1>ХОККЕЙ<br>МОРДОВИИ</h1>
+<p>Единая цифровая площадка Федерации хоккея Республики Мордовия. Соревнования, календарь, результаты, клубы, статистика, новости и официальные материалы.</p>
+<div class="hero-actions"><a class="btn primary" href="matches.html">Календарь матчей →</a><a class="btn" href="tournaments.html">Все турниры</a></div></div>
+<div class="hero-media reveal"><img data-img="hero" alt="Хоккейный матч — концепт-кадр"><div class="hero-overlay"><div class="hero-card"><img data-img="logo" alt=""><div><b>Федерация хоккея РМ</b><small>Саранск · Республика Мордовия</small></div></div><div class="hero-caption">Сезон 2026/27<br>в самом центре игры</div></div></div></div>
+<div class="container quick"><div class="quick-item"><b>06</b><span>Клубов</span></div><div class="quick-item"><b>01</b><span>Чемпионат</span></div><div class="quick-item"><b>18+</b><span>Матчей в сезоне*</span></div><div class="quick-item"><b>24/25</b><span>Текущий архив</span></div><div class="quick-item"><b>LIVE</b><span>Оперативные результаты</span></div></div></section>
 
-<section class="section soft"><div class="container">
-  <div class="section-head"><div><div class="kicker">Сейчас в лиге</div><h2>Ближайшие<br>матчи</h2></div><p>Расписание и результаты в одном месте. На этапе прототипа используются демонстрационные данные.</p></div>
-  <div class="matches">
-    <div class="match-list">
-      <div class="match-row"><div class="match-date">05 ОКТ · 18:30</div><div class="match-teams"><div class="status">Регулярный матч</div>СИЯЖАР — СЛОБОДА</div><div class="match-score">—</div></div>
-      <div class="match-row"><div class="match-date">07 ОКТ · 19:00</div><div class="match-teams"><div class="status">Регулярный матч</div>ВИКИНГ — СОВЫ</div><div class="match-score">—</div></div>
-      <div class="match-row"><div class="match-date">09 ОКТ · 18:00</div><div class="match-teams"><div class="status">Регулярный матч</div>МЕТЕОР — ЛОКОМОТИВ</div><div class="match-score">—</div></div>
-    </div>
-    <div class="side-panel"><h3>Матчи</h3><p>Отдельный раздел с календарём, результатами, статусами игр и подробностями каждого матча.</p><a class="btn" href="matches.html">Открыть раздел</a></div>
-  </div>
-</div></section>
+<section class="section"><div class="container"><div class="section-head"><div><div class="kicker">Главное</div><h2>Новости<br>федерации</h2></div><a class="btn" href="news.html">Все новости →</a></div>
+<div class="feature-news"><a class="feature" href="news-1.html"><img data-img="news1" alt=""><div class="feature-content"><div class="meta" style="color:#fff">28 СЕНТЯБРЯ · НОВОСТИ</div><h3>Федерация открывает новый хоккейный сезон</h3><p>В демонстрационной публикации рассказываем о старте чемпионата, командах-участниках и главных событиях сезона.</p></div></a>
+<div class="news-stack"><a class="news-card" href="news-2.html"><img data-img="news2" alt=""><div class="body"><div class="meta">25 сентября</div><h3>Команды провели первые контрольные встречи</h3><p>Предсезонная подготовка продолжается.</p></div></a>
+<a class="news-card" href="news-3.html"><img data-img="news3" alt=""><div class="body"><div class="meta">22 сентября</div><h3>Опубликован календарь первого тура</h3><p>Шесть команд сыграют между собой.</p></div></a>
+<a class="news-card" href="news-4.html"><img data-img="news4" alt=""><div class="body"><div class="meta">18 сентября</div><h3>В Мордовии развивается хоккейная инфраструктура</h3><p>Новые площадки и программы для игроков.</p></div></a></div></div></div></section>
 
-<section class="section"><div class="container">
-  <div class="section-head"><div><div class="kicker">Команды</div><h2>Шесть<br>клубов</h2></div><p>Карточки команд ведут на отдельные страницы с составом, статистикой и матчами.</p></div>
-  <div class="team-grid">
-    <a class="team-card" href="team-1.html"><small>Команда 01</small><h3>Сияжар</h3><p>Профиль команды, состав, результаты и статистика.</p><span class="team-link">↗</span></a>
-    <a class="team-card" href="team-2.html"><small>Команда 02</small><h3>Слобода</h3><p>Профиль команды, состав, результаты и статистика.</p><span class="team-link">↗</span></a>
-    <a class="team-card" href="team-3.html"><small>Команда 03</small><h3>Викинг</h3><p>Профиль команды, состав, результаты и статистика.</p><span class="team-link">↗</span></a>
-    <a class="team-card" href="team-4.html"><small>Команда 04</small><h3>Совы</h3><p>Профиль команды, состав, результаты и статистика.</p><span class="team-link">↗</span></a>
-    <a class="team-card" href="team-5.html"><small>Команда 05</small><h3>Метеор</h3><p>Профиль команды, состав, результаты и статистика.</p><span class="team-link">↗</span></a>
-    <a class="team-card" href="team-6.html"><small>Команда 06</small><h3>Локомотив</h3><p>Профиль команды, состав, результаты и статистика.</p><span class="team-link">↗</span></a>
-  </div>
-</div></section>
+<section class="section soft"><div class="container"><div class="section-head"><div><div class="kicker">Матчи</div><h2>Ближайшие<br>игры</h2></div><p>Календарь разделён на ближайшие и прошедшие встречи. Нажатие на матч открывает подробный протокол.</p></div>
+<div class="match-grid"><div class="match-list"><div class="match-tabs"><a class="active" href="matches.html">Ближайшие</a><a href="matches-past.html">Прошедшие</a></div>
+<a class="match-row" href="match-1.html"><div class="match-date">05 ОКТ · 18:30</div><div class="match-teams"><small>Чемпионат РМ · 1 тур</small>СИЯЖАР — СЛОБОДА</div><div class="score">—</div></a>
+<a class="match-row" href="match-2.html"><div class="match-date">07 ОКТ · 19:00</div><div class="match-teams"><small>Чемпионат РМ · 1 тур</small>ВИКИНГ — СОВЫ</div><div class="score">—</div></a>
+<a class="match-row" href="match-3.html"><div class="match-date">09 ОКТ · 18:00</div><div class="match-teams"><small>Чемпионат РМ · 1 тур</small>МЕТЕОР — ЛОКОМОТИВ</div><div class="score">—</div></a></div>
+<div class="panel dark"><div class="kicker" style="color:#e8a5b2">Матч дня</div><h3>Сияжар<br>×<br>Слобода</h3><p>05 октября · 18:30<br>Саранск · Ледовая арена</p><a class="btn" href="match-1.html">Карточка матча →</a></div></div></div></section>
 
-<section class="section soft"><div class="container">
-  <div class="section-head"><div><div class="kicker">Турниры</div><h2>Сезон<br>в цифрах</h2></div><p>Раздел турниров и турнирных таблиц — отдельные страницы для удобной работы с соревнованиями.</p></div>
-  <div class="cards">
-    <a class="card" href="tournaments.html"><div class="card-body"><div class="card-meta">01 · Сезон</div><h3>Чемпионат Республики</h3><p>Календарь, команды-участники, этапы и результаты.</p></div></a>
-    <a class="card" href="tables.html"><div class="card-body"><div class="card-meta">02 · Таблица</div><h3>Турнирная таблица</h3><p>Очки, игры, победы, поражения и разница шайб.</p></div></a>
-    <a class="card" href="events.html"><div class="card-body"><div class="card-meta">03 · События</div><h3>Жизнь федерации</h3><p>Турниры, мероприятия, награждения и другие события.</p></div></a>
-  </div>
-</div></section>
+<section class="section"><div class="container"><div class="section-head"><div><div class="kicker">Таблица</div><h2>Чемпионат<br>Республики</h2></div><a class="btn" href="tables.html">Полная таблица →</a></div>
+<div class="standings"><div class="table-wrap"><table><thead><tr><th>#</th><th>Команда</th><th>И</th><th>В</th><th>ВО</th><th>П</th><th>О</th><th>Ш</th></tr></thead><tbody>
+<tr><td>01</td><td><div class="team-name"><span class="mini-logo">С</span>Сияжар</div></td><td>5</td><td>4</td><td>0</td><td>1</td><td>12</td><td>+14</td></tr>
+<tr><td>02</td><td><div class="team-name"><span class="mini-logo">С</span>Слобода</div></td><td>5</td><td>3</td><td>1</td><td>1</td><td>11</td><td>+9</td></tr>
+<tr><td>03</td><td><div class="team-name"><span class="mini-logo">В</span>Викинг</div></td><td>5</td><td>3</td><td>0</td><td>2</td><td>9</td><td>+4</td></tr>
+<tr><td>04</td><td><div class="team-name"><span class="mini-logo">С</span>Совы</div></td><td>5</td><td>2</td><td>1</td><td>2</td><td>8</td><td>-1</td></tr>
+<tr><td>05</td><td><div class="team-name"><span class="mini-logo">М</span>Метеор</div></td><td>5</td><td>1</td><td>1</td><td>3</td><td>5</td><td>-8</td></tr>
+<tr><td>06</td><td><div class="team-name"><span class="mini-logo">Л</span>Локомотив</div></td><td>5</td><td>1</td><td>0</td><td>4</td><td>3</td><td>-18</td></tr>
+</tbody></table></div><div class="panel"><div class="kicker">Сезон</div><h3>2026/27</h3><p>Демонстрационная статистика. После согласования проекта показатели, составы и результаты будут заменены реальными данными.</p><a class="btn primary" href="tournaments.html">О турнирах →</a></div></div></div></section>
 
-<section class="section"><div class="container">
-  <div class="section-head"><div><div class="kicker">Новости</div><h2>Последние<br>события</h2></div><a class="btn" href="news.html">Все новости</a></div>
-  <div class="cards">
-    <article class="card"><div class="card-media"><img data-img="news" alt=""></div><div class="card-body"><div class="card-meta">Прототип · 01</div><h3>Старт нового хоккейного сезона</h3><p>Демонстрационная карточка новости. Текст будет заменён на реальные публикации.</p></div></article>
-    <article class="card"><div class="card-media"><img data-img="match" alt=""></div><div class="card-body"><div class="card-meta">Прототип · 02</div><h3>Команды готовятся к матчам</h3><p>Здесь будет лента актуальных новостей федерации и клубов.</p></div></article>
-    <article class="card"><div class="card-media"><img data-img="team" alt=""></div><div class="card-body"><div class="card-meta">Прототип · 03</div><h3>Хоккейная жизнь Мордовии</h3><p>Фото, результаты, интервью и материалы о соревнованиях.</p></div></article>
-  </div>
-</div></section>
+<section class="section soft"><div class="container"><div class="section-head"><div><div class="kicker">Клубы</div><h2>Команды<br>федерации</h2></div><a class="btn" href="teams.html">Все клубы →</a></div>
+<div class="team-grid">
+<a class="team-card" href="team-1.html"><small>01 · Профиль</small><h3>Сияжар</h3><p>Состав, статистика, матчи и новости команды.</p><span class="team-link">↗</span></a>
+<a class="team-card" href="team-2.html"><small>02 · Профиль</small><h3>Слобода</h3><p>Состав, статистика, матчи и новости команды.</p><span class="team-link">↗</span></a>
+<a class="team-card" href="team-3.html"><small>03 · Профиль</small><h3>Викинг</h3><p>Состав, статистика, матчи и новости команды.</p><span class="team-link">↗</span></a>
+<a class="team-card" href="team-4.html"><small>04 · Профиль</small><h3>Совы</h3><p>Состав, статистика, матчи и новости команды.</p><span class="team-link">↗</span></a>
+<a class="team-card" href="team-5.html"><small>05 · Профиль</small><h3>Метеор</h3><p>Состав, статистика, матчи и новости команды.</p><span class="team-link">↗</span></a>
+<a class="team-card" href="team-6.html"><small>06 · Профиль</small><h3>Локомотив</h3><p>Состав, статистика, матчи и новости команды.</p><span class="team-link">↗</span></a></div></div></section>
 
-<section class="section soft"><div class="container">
-  <div class="partner">
-    <div class="partner-copy"><div class="kicker">Официальный партнёр</div><h2>ATRINIKA</h2><p style="color:var(--muted);line-height:1.7">Производитель спортивной формы и мерча на заказ. На сайте ATRINIKA отдельно представлено направление хоккейной формы.</p><a class="btn primary" href="https://atrinika.pro/" target="_blank">Перейти на сайт партнёра</a></div>
-    <div class="partner-logo"><img data-img="atrinika" alt="ATRINIKA"></div>
-  </div>
-</div></section>
+<section class="section"><div class="container"><div class="partner"><div class="partner-copy"><div class="kicker">Партнёр и рекламодатель</div><h2>ATRINIKA</h2><p style="color:var(--muted);line-height:1.7">Демонстрационный блок партнёра. Здесь можно разместить логотип, описание, баннер и переход на официальный сайт.</p><a class="btn primary" href="https://atrinika.pro/" target="_blank">Сайт ATRINIKA →</a></div><div class="partner-logo"><img data-img="atrinika" alt="ATRINIKA"></div></div></div></section>
 </main>
-
-<footer>
-  <div class="container footer-grid">
-    <div>
-      <a class="brand" href="index.html"><img data-img="logo" alt=""><div><strong>ФЕДЕРАЦИЯ ХОККЕЯ<br>РЕСПУБЛИКИ МОРДОВИЯ</strong><span>Официальный портал</span></div></a>
-      <p>Официальная информационная площадка федерации: соревнования, команды, матчи, новости и документы.</p>
-    </div>
-    <div><b>Разделы</b><div class="footer-links" style="margin-top:14px"><a href="matches.html">Матчи</a><a href="tournaments.html">Турниры</a><a href="teams.html">Команды</a><a href="news.html">Новости</a></div></div>
-    <div><b>Связь</b><div class="footer-links" style="margin-top:14px"><a href="https://vk.ru/fhrm_13" target="_blank">ВКонтакте</a><a href="contacts.html">Контакты</a><a href="https://atrinika.pro/" target="_blank">Партнёр ATRINIKA</a></div></div>
-  </div>
-  <div class="container copyright">© <span data-year></span> Федерация хоккея Республики Мордовия</div>
-</footer>
-<script src="script.js"></script>
-</body></html>
+<footer><div class="container footer-grid"><div><a class="brand" href="index.html"><img data-img="logo" alt=""><div><strong>ФЕДЕРАЦИЯ ХОККЕЯ<br>РЕСПУБЛИКИ МОРДОВИЯ</strong><span>Официальный портал</span></div></a><p>Матчи, турниры, команды, новости и официальная информация о хоккейной жизни Республики Мордовия.</p></div>
+<div><b>Разделы</b><div class="footer-links"><a href="news.html">Новости</a><a href="matches.html">Календарь</a><a href="tables.html">Таблицы</a><a href="tournaments.html">Турниры</a><a href="teams.html">Клубы</a><a href="stats.html">Статистика</a></div></div>
+<div><b>Федерация</b><div class="footer-links"><a href="federation.html">О федерации</a><a href="documents.html">Документы</a><a href="sdk.html">СДК</a><a href="partners.html">Партнёры</a><a href="https://vk.ru/fhrm_13" target="_blank">ВКонтакте</a><a href="https://atrinika.pro/" target="_blank">ATRINIKA</a></div></div></div>
+<div class="container copyright">© <span data-year></span> Федерация хоккея Республики Мордовия · Прототип сайта</div></footer><script src="script.js"></script></body></html>
